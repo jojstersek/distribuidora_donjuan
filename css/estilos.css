@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Esto es solo para el index */
+
+.pagina__principal {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 50px;
+}
+
+.header__navigation {
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ff9900;
+    font-size: 30px;
+    font-family: lobster;
+    font-weight: 400;
+    text-align: justify;
+    padding: 50px;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 30;
+    text-align: left;
+    padding: 50px;
+    height: 120px;
+}
+
+.footer__principal {
+    color: antiquewhite;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+button {
+    border: chartreuse;
+    background-color: #ff9900;
+    border-radius: 15px;
+    font-weight: lighter;
+    color: black;
+    font-family: lobster;
+    width: 80px;
+}
+
+.a__principal {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* Aca empieza la pagina de contactos */
+
+.a__encabezados {
+    color: rgb(10, 8, 6);
+    text-decoration: none;
+}
+
+.contactosLetras {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+
+.footer__disclaimer__todos {
+    color: black;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactos__formato {
+    padding: 80px;
+}
+.section__contactos{
+    width: 500px;
+    height:400px;
+}
+
+input {
+    border-image-outset: 5px;
+    width: 500px;
+    border: outset;
+    padding: 5px;
+    margin: 5px; 
+}
+
+.contactos__margen {
+    padding-top:0px;
+}
+/* Aca declaro flex */
+
+.principal {
+    flex: dsiplay;
+}
+
+.footer {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.imagenPortada {
+    display: flex;
+}
+
+
+/* Aca empieza pagina de listas de precio */
+.grid__container {
+    display: grid;
+    border:1px solid grey;
+    grid-template-rows:  150px 150px;
+    grid-template-columns: 0.10fr 0.10fr 0.10fr 0.10fr 0.10fr;
+    gap:15px;
+    padding-bottom: 5px;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid__item {
+    border: 1px solid grey
+}
+
+.section__precios{
+    height:400px;
+    margin:10px
+}
+
+.grid__uno {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-uno.jpg);
+    background-size: inherit;
+}
+
+.grid__dos {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-dos.jpg);
+    background-size: inherit;
+}
+
+.grid__tres {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-tres.jpg);
+    background-size: inherit;
+}
+
+.grid__cuatro {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-cuatro.jpg);
+    background-size: inherit;
+}
+
+.grid__cinco {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-cinco.jpg);
+    background-size: inherit;
+}
+
+.grid__seis {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-seis.jpg);
+    background-size: inherit;
+}
+
+.grid__siete {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-siete.jpg);
+    background-size: inherit;
+}
+
+.grid__ocho {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-ocho.jpg);
+    background-size: inherit;
+}
+
+.grid__diez {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-diez.jpg);
+    background-size: inherit;
+}

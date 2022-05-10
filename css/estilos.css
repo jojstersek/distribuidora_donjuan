@@ -24,6 +24,7 @@ li {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    display: flex
 }
 
 h1 {
@@ -110,42 +111,44 @@ input {
 /* Aca declaro flex */
 
 .principal {
-    flex: dsiplay;
+    display: flex;
+    flex-direction:column;
 }
 
-.footer {
+footer {
     display: flex;
 }
 
-.header {
+header {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .imagenPortada {
-    display: flex;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 600px;
 }
-
 
 /* Aca empieza pagina de listas de precio */
 .grid__container {
     display: grid;
-    border:1px solid grey;
     grid-template-rows:  150px 150px;
     grid-template-columns: 0.10fr 0.10fr 0.10fr 0.10fr 0.10fr;
     gap:15px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     justify-content: center;
     background-position: center;
     background-size: cover;
 }
 
-.grid__item {
-    border: 1px solid grey
-}
 
 .section__precios{
     height:400px;
-    margin:10px
+    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .grid__uno {
@@ -201,6 +204,13 @@ input {
     background-position: inherit;
     background-repeat: no-repeat;
     background-image: url(../recursos/lista-de-precios-ocho.jpg);
+    background-size: inherit;
+}
+
+.grid__nueve {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-image: url(../recursos/lista-de-precios-nueve.jpg);
     background-size: inherit;
 }
 
